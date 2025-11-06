@@ -1,0 +1,64 @@
+
+/* Formulario de Registro */
+.contenedor-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--color-acento);
+}
+
+.grupo-control {
+    margin-bottom: 20px;
+}
+
+.grupo-control label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: var(--color-principal);
+}
+
+.grupo-control input[type="text"],
+.grupo-control input[type="email"],
+.grupo-control input[type="tel"],
+.grupo-control select,
+.grupo-control textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grupo-control input:focus,
+.grupo-control select:focus,
+.grupo-control textarea:focus {
+    border-color: var(--color-acento);
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(6, 182, 212, 0.2);
+}
+
+.boton-enviar {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 10px rgba(30, 64, 175, 0.3);
+}
+
+.boton-enviar:hover {
+    background-color: #1e3a8a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(30, 64, 175, 0.4);
+}
